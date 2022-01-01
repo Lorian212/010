@@ -20,7 +20,7 @@ char *strtrimc(char *s)
 void main(void)
 {
     char str;
-    printf("請輸入字串");
+    printf("請輸入字串");//提供使用者輸入
     scanf("%c", &str);
     printf("%s\n", strtrimc(str));
 }
